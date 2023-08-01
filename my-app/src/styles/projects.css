@@ -1,0 +1,11 @@
+.project-background{
+    background-color: rgb(20,18,54);
+}
+
+.transitionP:hover{
+    transform:scaleX(1.1);
+    /* height: 300px; */
+    margin-top: -10px;
+    transition: 1s ease-in-out;
+    box-shadow: 5px 5px rgb(53, 53, 84);
+}
