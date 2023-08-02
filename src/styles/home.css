@@ -15,6 +15,12 @@
     background-size:90% 100%;
 }
 
+.contact-svg{
+  background:url("../../public/images/contact.svg");
+  background-repeat: no-repeat;
+  background-size:80% 60%;
+}
+
 
 
 .background-color{
@@ -73,4 +79,31 @@
     from, to { border-color: transparent }
     50% { border-color: orange }
   }
+}
+
+/* contact */
+
+
+.github-png{
+  background: url("../../public/images/github.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.linked-png{
+  background: url("../../public/images/linked.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.gmail-png{
+  background: url("../../public/images/gmail.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.linkBack{
+  background-color:rgb(20,18,34);
 }

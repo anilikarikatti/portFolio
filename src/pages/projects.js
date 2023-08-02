@@ -48,9 +48,9 @@ export default function Projects(){
 
                 </div>
 
-            <div className="flex relative top-16 text-white sm:text-4xl justify-center items-center">
+            <div className="flex relative top-16 text-white sm:text-4xl justify-center items-center text-2xl">
                     <div className="capitalize relative fonts-header ">projects   . . . </div>
-                    <div className="w-[70%] h-1 border-2 bar relative top-3"></div>
+                    <div className="h-1 border-2 bar relative top-3"></div>
                 </div>
 
                 <div className="flex justify-center items-center  relative top-32">

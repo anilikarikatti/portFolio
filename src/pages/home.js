@@ -19,7 +19,7 @@ export default function Home(){
 
     return(
         <>
-            <div className={` h-screen background-color  overflow-scroll`} >
+            <div className={` h-screen background-color  overflow-y-scroll`} >
 
             <div className="sm:w-1/2  w-full h-20">
                 <Navigation />
