@@ -13,7 +13,7 @@ export default function ProjectDescription(){
 
     let {title,content,allTechnologies,gallary,src} = router.query;
 
-    console.log(gallary);
+    // console.log(gallary);
 
     
 
