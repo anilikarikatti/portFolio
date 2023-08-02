@@ -5,13 +5,20 @@ import Link from "next/link"
 
 import LinkImg from "/public/images/link.gif"
 
+import { Data } from "./data";
+
+
 export default function ProjectDescription(){
 
     let router = useRouter();
 
 
 
-    let {title,content,allTechnologies,gallary,src} = router.query;
+    let obj = router.query;
+
+    let key = Object.keys(obj);
+
+    let {title,content,allTechnologies,src,gallary} = Data[key[0]];
 
     // console.log(gallary);
 

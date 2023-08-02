@@ -1,12 +1,12 @@
 
+import { Data } from "./data";
 
 
 export default function ProjectTemplate({obj}){
 
-    if(obj){
-       var {title,content,technologies} = obj;
+        let {title,content,technologies} = Data[obj];
 
-    }
+        console.log(title);
     return(
         <>
             <div className="h-60 w-80 project-background text-white rounded-xl flex items-center flex-col transitionP">
@@ -18,7 +18,7 @@ export default function ProjectTemplate({obj}){
                 <div className="flex relative top-8 w-full justify-around ">
                     {technologies ? technologies.map(elem=>{
                         return(
-                            <div className="h-8 w-20 bg-black flex justify-center items-center rounded-md text-sm capitalize" key={elem}>{elem}</div>
+                            <div className="h-8 w-20 bg-black flex justify-center items-center rounded-md text-sm capitalize text-center" key={elem}>{elem}</div>
                         )
                     }) : ""}
                  </div>

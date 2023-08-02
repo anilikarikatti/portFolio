@@ -54,7 +54,7 @@ export default function About(){
                            </div>
 
                            <div className="relative top-8 w-full">
-                                <h2 className="text-3xl capitalize underline-offset-4 underline fonts-header"> my strength</h2>
+                                <h2 className="text-3xl capitalize underline-offset-4 underline fonts-header"> my skills</h2>
 
                                 <div className=" flex w-full flex-wrap sm:gap-x-12 gap-x-10 relative top-10 fonts-content capitalize">
                                     <div>
