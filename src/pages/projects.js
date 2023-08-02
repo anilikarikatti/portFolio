@@ -150,7 +150,7 @@ export default function Projects(){
 
                             {projects.map(elem=>{
                             return(  <div key={elem.title} onClick={()=>toPage(elem)}>
-                                <ProjectTemplate props= {elem} key={elem.title} />
+                                <ProjectTemplate obj= {elem} key={elem.title} />
                             </div>)
                             })}
 
