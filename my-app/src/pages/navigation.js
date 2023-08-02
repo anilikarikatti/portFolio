@@ -18,8 +18,8 @@ export default function Navigation (){
     return (
 
         <>
-            <div className="flex w-full  sm:h-12 h-8 relative top-10 gap-10">
-                <div className=" icon relative left-4  justify-center flex " onClick={()=>toPage("home")} >
+            <div className="flex w-full  sm:h-12  relative top-10 gap-10">
+                <div className=" icon relative left-2  justify-center flex " onClick={()=>toPage("home")} >
                     <Image src={home} height={50} width = {50} alt="ab"  className="cursor-pointer"></Image>
                 </div>
                 <div className=" icon  flex justify-center  "  onClick={()=>toPage("about")}>

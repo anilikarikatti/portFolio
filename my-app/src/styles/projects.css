@@ -9,3 +9,9 @@
     transition: 1s ease-in-out;
     box-shadow: 5px 5px rgb(53, 53, 84);
 }
+
+.back{
+    background: url("../../public/images/back.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

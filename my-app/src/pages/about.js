@@ -37,14 +37,14 @@ export default function About(){
                     </div>
 
                     <div data-aos="zoom-in-right" className='sm:h-full h-[40%] sm:w-1/2  w-full'>
-                        <div className="flex relative    text-40 text-gray-300 h-full flex-col gap-10 sm:top-10  -top-20 left-2">
+                        <div className="flex relative    text-40 text-gray-300 h-full flex-col gap-10 sm:top-10  -top-20 w-[96%] left-[2%] right-[2%] items-center">
 
                              <div className="flex gap-6 relative sm:top-12 top-4">
                                 <h1  className = "text-3xl fonts-content">Hello ! </h1>
                                 <div className="hello-png h-8 w-8 relative "></div>
                               
                             </div>
-                           <div className="sm:justify-start justify-center flex flex-col relative sm:top-10 top-5 fonts-content">
+                           <div className="sm:justify-start justify-center flex flex-col relative sm:top-10 top-5 fonts-content text-justify ">
                            <h3 className=" text-2xl">I am <b className="capitalize">anil karikatii</b> ,</h3>
                             <h3 className="leading-8 sm:text-xl text-md">
                                
@@ -56,7 +56,7 @@ export default function About(){
                            <div className="relative top-8 w-full">
                                 <h2 className="text-3xl capitalize underline-offset-4 underline fonts-header"> my strength</h2>
 
-                                <div className=" flex w-full flex-wrap gap-x-12 relative top-10 fonts-content capitalize">
+                                <div className=" flex w-full flex-wrap sm:gap-x-12 gap-x-10 relative top-10 fonts-content capitalize">
                                     <div>
                                         <div className="html h-24 w-20"> </div>
                                         <h2 className="text-center relative -top-4">html</h2>
