@@ -42,14 +42,14 @@ export default function Contact(){
                   
                         <div className="flex relative text-center  text-40 text-gray-300  items-center h-full flex-col gap-10 sm:top-40">
                             
-                            <Link href="asd">
+                            <Link href="https://github.com/anilikarikatti/">
                             <div className="github flex justify-center items-center gap-x-5 text-xl capitalize linkBack w-80 rounded-xl ">
                                     <div className="github-png sm:h-14 sm:w-14 h-14 w-14"> </div>
                                     <div className="">github</div>
                              </div>
                             </Link>
 
-                            <Link href="asd">
+                            <Link href="https://www.linkedin.com/in/anil-karikatti-aak333/">
                                 <div className="github flex justify-center items-center gap-x-5 text-xl capitalize linkBack w-80 rounded-xl">
                                     <div className="linked-png sm:h-14 sm:w-14 h-14 w-14"> </div>
                                         <div className="">linked in </div>
@@ -57,10 +57,10 @@ export default function Contact(){
                                 
                             </Link>
 
-                            <Link href="asd">
+                            <Link href="#">
                                 <div className="github flex justify-center items-center gap-x-5 text-xl capitalize linkBack w-80 rounded-xl">
                                     <div className="gmail-png sm:h-14 sm:w-14 h-14 w-14"> </div>
-                                        <div className="">gmail </div>
+                                        <div className="">anilkarikatti333@gmail.com </div>
                                 </div>
                                 
                             </Link>
