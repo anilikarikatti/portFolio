@@ -16,9 +16,14 @@ export default function ProjectDescription(){
 
     let obj = router.query;
 
-    let key = Object.keys(obj);
+    
+        let key = Object.keys(obj);
+        if(Data[key[0]]){
+             var {title,content,allTechnologies,src,gallary} = Data[key[0]];
 
-    let {title,content,allTechnologies,src,gallary} = Data[key[0]];
+            console.log(key);
+        }
+    
 
     // console.log(gallary);
 
@@ -77,7 +82,7 @@ export default function ProjectDescription(){
                     </div>
                   </div>
                 </div>
-                </div>
+                </div> 
         </div>
         </>
     )

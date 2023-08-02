@@ -4,9 +4,11 @@ import { Data } from "./data";
 
 export default function ProjectTemplate({obj}){
 
-        let {title,content,technologies} = Data[obj];
+       if(obj){
+        var {title,content,technologies} = Data[obj];
 
         console.log(title);
+       }
     return(
         <>
             <div className="h-60 w-80 project-background text-white rounded-xl flex items-center flex-col transitionP">

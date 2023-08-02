@@ -95,3 +95,9 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
 
 
     }
+
+    export default function data(){
+        return(
+            <> </>
+        )
+    }
