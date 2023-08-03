@@ -62,7 +62,7 @@ export default function About(){
 
                                     {skills.map(elem=>{
                                         return(
-                                            <div>
+                                            <div key={elem.name}>
                                             <div className={`${elem.class} sm:h-24 sm:w-20 h-14 w-14`}> </div>
                                             <h2 className="text-center relative sm:-top-4">{elem.name}</h2>
                                         </div>
