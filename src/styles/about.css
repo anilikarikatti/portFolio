@@ -1,7 +1,7 @@
 .backimg{
     background-image: url("../../public/images/anil_profile.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     transition: transform 2s ease;
 }
 

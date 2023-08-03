@@ -3,11 +3,12 @@
 }
 
 .transitionP:hover{
-    transform:scaleX(1.1);
+    transform:scaleY(1.1);
     /* height: 300px; */
     margin-top: -10px;
-    transition: 1s ease-in-out;
-    box-shadow: 5px 5px rgb(53, 53, 84);
+    transition: 1s ease-in;
+    box-shadow: 5px 5px 10px 10px rgb(53, 53, 84);
+    cursor: pointer;
 }
 
 .back{

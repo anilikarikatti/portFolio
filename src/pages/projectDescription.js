@@ -33,7 +33,7 @@ export default function ProjectDescription(){
         <>
             <div className="h-screen background-color overflow-y-scroll overflow-x-hidden">
 
-                <div className="back sm:h-20 h-10 w-20 relative left-[5%] top-[5%]" onClick={()=>router.back()}></div>
+                <div className="back sm:h-20 h-10 w-20 relative left-[5%] top-[5%] cursor-pointer" onClick={()=>router.back()}></div>
                 <div className="h-full">
 
 

@@ -15,14 +15,24 @@ export default function Navigation (){
     console.log("called");
         router.push(page);
   }
+
+    let links = [{name:"home",link:home},{name:"about",link:about},{name:"projects",link:projects},{name:"contact",link:contact},]
     return (
 
         <>
             <div className="flex w-full  sm:h-12  relative top-10 gap-10">
-                <div className=" icon relative left-2  justify-center flex " onClick={()=>toPage("home")} >
-                    <Image src={home} height={50} width = {50} alt="ab"  className="cursor-pointer"></Image>
-                </div>
-                <div className=" icon  flex justify-center  "  onClick={()=>toPage("about")}>
+                {
+                    links.map(elem=>{
+                        return(
+                            <>
+                                <div className={`${elem.name} icon  flex justify-center  ` }onClick={()=>toPage(elem.name)}>
+                                    <Image src={elem.link} height={50} width = {50} alt="ab" className="cursor-pointer"></Image>
+                                </div> 
+                            </>
+                        )
+                    })
+                }
+                {/* <div className=" icon  flex justify-center  "  onClick={()=>toPage("about")}>
                     <Image src={about} height={50} width = {50} alt="ab" className="cursor-pointer"></Image>
                 </div>
                 <div className=" icon  justify-center flex "  onClick={()=>toPage("projects")}>
@@ -30,7 +40,7 @@ export default function Navigation (){
                 </div>
                 <div className=" icon  justify-center flex " onClick={()=>toPage("contact")}>
                     <Image src={contact} height={50} width = {50} alt="ab" className="cursor-pointer"></Image>
-                </div>
+                </div> */}
 
             </div>
         </>

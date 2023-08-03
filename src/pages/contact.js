@@ -57,13 +57,13 @@ export default function Contact(){
                                 
                             </Link>
 
-                            <Link href="#">
-                                <div className="github flex justify-center items-center gap-x-5 text-xl capitalize linkBack w-80 rounded-xl">
+                            <a href="mailto:anilkarikatti333@gmail.com">
+                                <div className="github flex justify-center items-center gap-x-8 text-xl  linkBack w-80 rounded-xl capitalize">
                                     <div className="gmail-png sm:h-14 sm:w-14 h-14 w-14"> </div>
-                                        <div className="">anilkarikatti333@gmail.com </div>
+                                        <div className="">gmail </div>
                                 </div>
                                 
-                            </Link>
+                            </a>
                             
                         </div>
                     </div>
