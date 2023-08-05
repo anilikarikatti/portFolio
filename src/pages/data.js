@@ -53,7 +53,13 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
     src:"https://github.com/anilikarikatti/food_order"
 },
 
-       "resume_builder": {title:"resume builder",content:"This Is A Resume Builder App And This Project Gives The Ready Made Resume This Project Is In Next Js When User Enters His Information And Added His Projects And Clicked Confirm Then Click Any Template It Will Generate His Resume This Project Can Be Done In React Js , And Also Hosted On Vercel",technologies:['react js','tailwind css','next js'],
+       
+
+
+    }
+
+    export const Hobby = {
+        "resume_builder": {title:"resume builder",content:"This Is A Resume Builder App And This Project Gives The Ready Made Resume This Project Is In Next Js When User Enters His Information And Added His Projects And Clicked Confirm Then Click Any Template It Will Generate His Resume This Project Can Be Done In React Js , And Also Hosted On Vercel",technologies:['react js','tailwind css','next js'],
 
         allTechnologies:['React Js',
         'Next Js',
@@ -80,6 +86,21 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
     src:"https://trying-vercel-anilikarikatti.vercel.app/"
         },
 
+
+        "weather app" : {title:"memory game",content:"This Is Challenging Game Containing 4x4 Boxes That Highlights A Red Color In Each Random Box For Certain Seconds When User Click All Colored Boxes The Color Of Box Will Be Red And After Picking All Colored Boxes User Will Be Win The Game This Project Can Be Done By React Js And Also Hosted On Vercel The Same Project Will Be Done By Normal Html , Css And Javascript",technologies:['react js ','tailwind css','next js'] , 
+        
+        allTechnologies:['React Js',
+        'Next Js',
+        
+        'Tailwind Css',
+        'Vercel',
+        'Javascript'] , 
+ gallary:[Memory1.src,Memory2.src],
+
+   src:"https://trying-vercel-anilikarikatti.vercel.app/"
+       },
+
+
        "quiz":  {title:"quiz game",content:"This Is Challenging Game Containing 4x4 Boxes That Highlights A Red Color In Each Random Box For Certain Seconds When User Click All Colored Boxes The Color Of Box Will Be Red And After Picking All Colored Boxes User Will Be Win The Game This Project Can Be Done By React Js And Also Hosted On Vercel The Same Project Will Be Done By Normal Html , Css And Javascript",technologies:['react js ','tailwind css','next js'],
          allTechnologies:['React Js',
          'Next Js',
@@ -92,8 +113,6 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
   src:"https://github.com/anilikarikatti/quiz_game"
 
         },
-
-
     }
 
     export default function data(){

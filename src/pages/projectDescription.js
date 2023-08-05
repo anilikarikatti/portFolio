@@ -5,7 +5,7 @@ import Link from "next/link"
 
 import LinkImg from "/public/images/link.gif"
 
-import { Data } from "./data";
+import { Data, Hobby } from "./data";
 
 
 export default function ProjectDescription(){
@@ -23,6 +23,13 @@ export default function ProjectDescription(){
 
             console.log(key);
         }
+
+        if(Hobby[key[0]]){
+            var {title,content,allTechnologies,src,gallary} = Hobby[key[0]];
+
+           console.log(key);
+       }
+
     
 
     // console.log(gallary);

@@ -4,7 +4,7 @@ import {useRouter} from "next/router"
 
 import Navigation from "./navigation"
 
-import { Data } from "./data";
+import { Data,Hobby } from "./data";
 
 export default function Projects(){
 
@@ -29,6 +29,9 @@ export default function Projects(){
     // projects.push(project1)
   
     let projects = Object.keys(Data);
+
+    let hobby = Object.keys(Hobby);
+
 
     console.log(projects);
 
@@ -65,6 +68,26 @@ export default function Projects(){
 
                         </div>
                     </div>
+
+
+                    {/* hobbuyu */}
+
+                    <div className="relative top-40 text-white text-center capitalize fonts-header text-2xl">
+                        hobby projects
+                           </div>
+
+                    <div className="flex justify-center items-center  relative top-52">
+
+                    <div className="grid sm:grid-cols-3 justify-center gap-10 ">
+
+                            {hobby.map(elem=>{
+                            return(  <div key={elem} onClick={()=>toPage(elem)}>
+                                <ProjectTemplate obj= {elem} key={elem} />
+                            </div>)
+                            })}
+
+                        </div>
+                </div>
             </div>
         </>
     )
