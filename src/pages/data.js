@@ -16,6 +16,9 @@ import Resume2 from "/public/images/rbuilder4.png"
 import Memory1 from "/public/images/memory_game1.png"
 import Memory2 from "/public/images/memory_game2.png"
 
+import Weather1 from "/public/images/weather1.png"
+import Weather2 from "/public/images/weather2.png"
+
 
 import Quiz1 from "/public/images/quiz1.png"
 import Quiz2 from "/public/images/quiz2.png"
@@ -87,17 +90,12 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
         },
 
 
-        "weather app" : {title:"memory game",content:"This Is Challenging Game Containing 4x4 Boxes That Highlights A Red Color In Each Random Box For Certain Seconds When User Click All Colored Boxes The Color Of Box Will Be Red And After Picking All Colored Boxes User Will Be Win The Game This Project Can Be Done By React Js And Also Hosted On Vercel The Same Project Will Be Done By Normal Html , Css And Javascript",technologies:['react js ','tailwind css','next js'] , 
+        "weather app" : {title:"weather app",content:"This is my first project in javascript . In this project to get the the data from the weather API . to enter the city and displayed the current temperature of the searched city .   in this project using  Html , Css And Javascript",technologies:['html ','css','javascript '] , 
         
-        allTechnologies:['React Js',
-        'Next Js',
-        
-        'Tailwind Css',
-        'Vercel',
-        'Javascript'] , 
- gallary:[Memory1.src,Memory2.src],
+        allTechnologies:['html ','css','javascript '] , 
+ gallary:[Weather1.src,Weather2.src],
 
-   src:"https://trying-vercel-anilikarikatti.vercel.app/"
+   src:"https://anilikarikatti.github.io/weatherApp/weather.html"
        },
 
 
