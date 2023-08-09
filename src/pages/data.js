@@ -93,9 +93,9 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
         "weather app" : {title:"weather app",content:"This is my first project in javascript . In this project to get the the data from the weather API . to enter the city and displayed the current temperature of the searched city .   in this project using  Html , Css And Javascript",technologies:['html ','css','javascript '] , 
         
         allTechnologies:['html ','css','javascript '] , 
- gallary:[Weather1.src,Weather2.src],
+        gallary:[Weather1.src,Weather2.src],
 
-   src:"https://anilikarikatti.github.io/weatherApp/weather.html"
+        src:"https://anilikarikatti.github.io/weatherApp/weather.html"
        },
 
 
