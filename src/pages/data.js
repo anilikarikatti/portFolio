@@ -23,6 +23,12 @@ import Weather2 from "/public/images/weather2.png"
 import Quiz1 from "/public/images/quiz1.png"
 import Quiz2 from "/public/images/quiz2.png"
 
+import Todo1 from "/public/images/todo1.png"
+import Todo2 from "/public/images/todo2.png"
+import Todo3 from "/public/images/todo3.png"
+import Todo5 from "/public/images/todo5.png"
+
+
 export  const Data = { 
    "bioBackup" : {title : "bio backup",content:"This Is Our Client Product . This Application is Available In Play Store Also. This Product Provides A Secured Account In Cloud To Everyone To Access Medical Documents Such As MRI Report, CT Scan, X Ray, Lab Reports, Other Medical Tests, 3D Imaging, Medical Prescriptions In Digital Format From The Original Issuers Of These Certificates. The Project Will Be Hosted On Aws I Have Also Little Bit Knowledge About This In This Project I Have Been Be Worked On Backend Using Node Js And Express Js And Mysql The Admin Side Of This Product Has Been Done By Be ..This Project Using Nunjucks Template, Tailwind Css , Html Javascript",technologies:['node js','mysql','aws'],allTechnologies:['Node Js',
         'Express Js',
@@ -90,6 +96,33 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
         },
 
 
+        "Todo List" : {title:"Todo List",content:`1 ) Timer for task \n
+
+        2 ) Start stop and save buttons
+        
+        3 ) To start time use start button
+        
+        4 ) To save timer use save button
+        
+        5 ) After save button clicked dialog box opened and fill the fields
+        
+        6 ) After save the todo list
+        
+        7 ) check the To List
+        
+        8 ) It displays the todo title , description , time`,technologies:['react js ','tailwind css','next js'] , 
+        
+        allTechnologies:['React Js',
+        'Next Js',
+        
+        'Tailwind Css',
+        'Vercel',
+        'Javascript'] , 
+ gallary:[Todo1.src,Todo2.src,Todo3.src,Todo5.src],
+
+   src:"https://todo-list-anilikarikatti.vercel.app/"
+       },
+
         "weather app" : {title:"weather app",content:"This is my first project in javascript . In this project to get the the data from the weather API . to enter the city and displayed the current temperature of the searched city .   in this project using  Html , Css And Javascript",technologies:['html ','css','javascript '] , 
         
         allTechnologies:['html ','css','javascript '] , 
@@ -111,6 +144,8 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
   src:"https://github.com/anilikarikatti/quiz_game"
 
         },
+
+
     }
 
     export default function data(){

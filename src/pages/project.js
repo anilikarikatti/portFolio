@@ -24,7 +24,7 @@ export default function ProjectTemplate({obj}){
                 <div className="flex relative top-8 w-full justify-around ">
                     {technologies ? technologies.map(elem=>{
                         return(
-                            <div className="h-8 w-20 bg-black flex justify-center items-center rounded-md text-sm capitalize text-center" key={elem}>{elem}</div>
+                            <div className="h-8 w-28 bg-black flex justify-center items-center rounded-md text-sm capitalize text-center" key={elem}>{elem}</div>
                         )
                     }) : ""}
                  </div>
