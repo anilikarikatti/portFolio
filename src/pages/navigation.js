@@ -20,13 +20,22 @@ export default function Navigation (){
     return (
 
         <>
-            <div className="flex w-full  sm:h-12  relative top-10 gap-10">
+            <div className="flex w-full  sm:h-8  relative top-10 sm:gap-10 gap-4 ">
                 {
+                    // links.map(elem=>{
+                    //     return(
+                    //         <>
+                    //             <div className={`${elem.name} icon  flex justify-center  ` }onClick={()=>toPage(elem.name)}>
+                    //                 <Image src={elem.link} height={50} width = {50} alt="ab" className="cursor-pointer"></Image>
+                    //             </div> 
+                    //         </>
+                    //     )
+                    // })
                     links.map(elem=>{
                         return(
                             <>
-                                <div className={`${elem.name} icon  flex justify-center  ` }onClick={()=>toPage(elem.name)}>
-                                    <Image src={elem.link} height={50} width = {50} alt="ab" className="cursor-pointer"></Image>
+                                <div className={`${elem.name} icon  flex justify-center  bg-orange-400 capitalize items-center rounded-md relative text-lg cursor-pointer hover:bg-orange-300` }onClick={()=>toPage(elem.name)}>
+                                   {elem.name}
                                 </div> 
                             </>
                         )
