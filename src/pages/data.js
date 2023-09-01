@@ -23,6 +23,9 @@ import Weather2 from "/public/images/weather2.png"
 import Quiz1 from "/public/images/quiz1.png"
 import Quiz2 from "/public/images/quiz2.png"
 
+import offer from "/public/images/offer.png"
+
+
 import Todo1 from "/public/images/todo1.png"
 import Todo2 from "/public/images/todo2.png"
 import Todo3 from "/public/images/todo3.png"
@@ -68,6 +71,24 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
     }
 
     export const Hobby = {
+
+        "offer_letter_builder": {title:"offer letter builder",content:"This Is A offer letter Builder App And This Project Gives The Ready Made offer letter This Project Is In Next Js When User Enters His Information And Added His details Clicked submit Then  Template It Will Generate His offer letter and also download the pdf . This Project Can Be Done In React Js , And Also Hosted On Vercel",technologies:['react js','tailwind css','next js'],
+
+    allTechnologies:['React Js',
+    'Next Js',
+    
+    'Tailwind Css',
+    'Vercel',
+    'Javascript'] , 
+gallary:[offer.src],
+src:"https://offer-letter-builder-anilikarikatti.vercel.app/"
+,
+
+},
+
+
+
+
         "resume_builder": {title:"resume builder",content:"This Is A Resume Builder App And This Project Gives The Ready Made Resume This Project Is In Next Js When User Enters His Information And Added His Projects And Clicked Confirm Then Click Any Template It Will Generate His Resume This Project Can Be Done In React Js , And Also Hosted On Vercel",technologies:['react js','tailwind css','next js'],
 
         allTechnologies:['React Js',
@@ -81,6 +102,9 @@ src:"https://play.google.com/store/apps/details?id=com.ksouonlinestudy.app.twa"
  ,
     
     },
+
+
+    
 
         "memory_game" : {title:"memory game",content:"This Is Challenging Game Containing 4x4 Boxes That Highlights A Red Color In Each Random Box For Certain Seconds When User Click All Colored Boxes The Color Of Box Will Be Red And After Picking All Colored Boxes User Will Be Win The Game This Project Can Be Done By React Js And Also Hosted On Vercel The Same Project Will Be Done By Normal Html , Css And Javascript",technologies:['react js ','tailwind css','next js'] , 
         
