@@ -82,7 +82,7 @@ export default function ProjectDescription(){
                     <div className="flex flex-col relative  justify-center text-white justify-start items-start gap-10 top-10"> 
                             {gallary ? gallary.map(elem=>{
                             return (
-                                <div key={elem} className="flex gap-2"><Image src={elem} width={800} height={800} alt={elem}/></div>
+                                <div key={elem} className="flex gap-2"><Image src={elem} width={300} height={300} alt={elem}/></div>
                             )
                         }) : ""}
 
